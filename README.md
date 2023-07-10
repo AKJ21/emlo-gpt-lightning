@@ -52,6 +52,13 @@ copper_train --help
 copprt_train experiment=gpt --help
 ```
 
+## Optuna Results for 5 trials
+Note: Trials were limited to five due to insufficient resources and CUDA out of memory error on colab.
+
+![Val/loss]("/results/Val_loss.png")
+
+![hparams_compare]("/results/hparams.png")
+
 ## Contributors
 - Aman Jaipuria
 - Anurag Mittal
